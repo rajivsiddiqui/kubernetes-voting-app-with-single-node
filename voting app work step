@@ -1,3 +1,11 @@
+Dlete a pod from kubernetes
+#kubectl delete pod <pod name>
+
+Dlete a service from kubernetes
+#kubectl delete service <pod name>
+
+
+
 step:1
 make sure no pod and other service is not running
 #kubectl get pods
@@ -17,7 +25,18 @@ Run all yaml file
 #kubectl create -f result-service.yaml
 
 
+Show all pods and service
+#kubectl get pods,svc
+
+Get the URL of the voting and result services
+#minikube service voting-service --url
+#minikube service result-service --url
 
 
+Dlete a pod from kubernetes
+#kubectl delete pod <pod name>
+
+Dlete a service from kubernetes
+#kubectl delete service <pod name>
 
 
