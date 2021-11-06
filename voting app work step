@@ -1,0 +1,23 @@
+step:1
+make sure no pod and other service is not running
+#kubectl get pods
+#kubectl get svc
+
+Step:2
+Run all yaml file
+
+#kubectl create -f voting-app-pod.yaml
+#kubectl create -f voting-service.yaml
+#kubectl create -f redis-app-pod.yaml
+#kubectl create -f redis-service.yaml
+#kubectl create -f worker-app-pod.yaml
+#kubectl create -f postgres-app-pod.yaml
+#kubectl create -f postgres-service.yaml
+#kubectl create -f result-app-pod.yaml
+#kubectl create -f result-service.yaml
+
+
+
+
+
+
